@@ -10,24 +10,24 @@
 
     <EditText
         android:id="@+id/editTextTextEmailAddress"
-        android:layout_width="wrap_content"
+        android:layout_width="377dp"
         android:layout_height="45dp"
-        android:layout_marginStart="95dp"
-        android:layout_marginTop="275dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="370dp"
+        android:background="@drawable/edittext_border"
         android:ems="10"
-        android:inputType="textEmailAddress"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
         android:hint="E - maill"
+        android:inputType="textEmailAddress"
         android:textColorHint="#AFAFAF"
-        android:background="@drawable/edittext_border"/>
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/editTextTextPassword"
-        android:layout_width="210dp"
+        android:layout_width="377dp"
         android:layout_height="45dp"
-        android:layout_marginStart="80dp"
-        android:layout_marginTop="472dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="444dp"
         android:ems="10"
         android:hint="Pass"
         android:inputType="textPassword"
@@ -39,10 +39,12 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_width="304dp"
+        android:layout_width="384dp"
         android:layout_height="49dp"
-        android:layout_marginStart="33dp"
-        android:layout_marginTop="142dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="140dp"
+        android:background="@drawable/edibtn_login"
+        android:theme="@style/property"
         android:backgroundTint="#43DED0"
         android:text="Войти"
         app:layout_constraintStart_toStartOf="parent"
@@ -50,14 +52,25 @@
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="305dp"
+        android:layout_width="384dp"
         android:layout_height="52dp"
-        android:layout_marginStart="33dp"
-        android:layout_marginTop="31dp"
-        android:background="@drawable/edittext_border"
-        android:backgroundTint="@color/black"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/editbtn_reg"
+        android:theme="@style/property_black"
+        app:backgroundTint="#A8A8A8"
         android:text="Регистрация"
         android:textColor="#43DED0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="283dp"
+        android:layout_height="149dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="100dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/frame" />
 </androidx.constraintlayout.widget.ConstraintLayout>
