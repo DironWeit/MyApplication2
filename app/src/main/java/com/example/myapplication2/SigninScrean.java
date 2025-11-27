@@ -19,7 +19,7 @@ public class SigninScrean extends AppCompatActivity {
 
     }
     public void onClickInScrean(View view) {
-        Intent intent = new Intent(SigninScrean.this, ScrollingActivity.class);
+        Intent intent = new Intent(SigninScrean.this, MainScreanActivity.class);
         startActivity(intent);
     }
 
@@ -27,4 +27,9 @@ public class SigninScrean extends AppCompatActivity {
         Intent intent = new Intent(SigninScrean.this, RegScrean.class);
         startActivity(intent);
     }
+
+//    public void onClickInMain(View view) {
+//        Intent intent = new Intent(SigninScrean.this, MainScreanActivity.class);
+//        startActivity(intent);
+//    }
 }

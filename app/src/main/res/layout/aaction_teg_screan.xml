@@ -10,7 +10,7 @@
         android:id="@+id/imageView4"
         android:layout_width="207dp"
         android:layout_height="134dp"
-        android:layout_marginStart="112dp"
+        android:layout_marginStart="70dp"
         android:layout_marginTop="140dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -18,7 +18,7 @@
 
     <EditText
         android:id="@+id/editTextTextName"
-        android:layout_width="377dp"
+        android:layout_width="320dp"
         android:layout_height="45dp"
         android:layout_marginStart="17dp"
         android:layout_marginTop="46dp"
@@ -36,7 +36,7 @@
 
     <EditText
         android:id="@+id/editTextTextFerstName"
-        android:layout_width="377dp"
+        android:layout_width="320dp"
         android:layout_height="45dp"
         android:layout_marginStart="17dp"
         android:layout_marginTop="20dp"
@@ -54,7 +54,7 @@
 
     <EditText
         android:id="@+id/editTextTextEmailAddress"
-        android:layout_width="377dp"
+        android:layout_width="320dp"
         android:layout_height="45dp"
         android:layout_marginStart="17dp"
         android:layout_marginTop="20dp"
@@ -72,7 +72,7 @@
 
     <EditText
         android:id="@+id/editTextTextPass"
-        android:layout_width="377dp"
+        android:layout_width="320dp"
         android:layout_height="45dp"
         android:layout_marginStart="17dp"
         android:layout_marginTop="20dp"
@@ -90,7 +90,7 @@
 
     <EditText
         android:id="@+id/editTextTextPassrepiat"
-        android:layout_width="377dp"
+        android:layout_width="320dp"
         android:layout_height="45dp"
         android:layout_marginStart="17dp"
         android:layout_marginTop="20dp"
@@ -109,30 +109,30 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_width="384dp"
+        android:layout_width="340dp"
         android:layout_height="49dp"
         android:layout_marginStart="12dp"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="40dp"
         android:background="@drawable/edibtn_login"
         android:backgroundTint="#43DED0"
-        android:text="Зарегистрироваться"
         android:onClick="onClickInLodin"
+        android:text="Зарегистрироваться"
         android:theme="@style/property"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPassrepiat" />
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="384dp"
+        android:layout_width="340dp"
         android:layout_height="52dp"
         android:layout_marginStart="12dp"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="20dp"
         android:background="@drawable/editbtn_reg"
+        android:onClick="onClickInLodin"
+        android:text="У меня уже есть аккаунт"
+        android:textColor="#43DED0"
         android:theme="@style/property_black"
         app:backgroundTint="#A8A8A8"
-        android:text="У меня уже есть аккаунт"
-        android:onClick="onClickInLodin"
-        android:textColor="#43DED0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button" />
 
