@@ -115,7 +115,8 @@
         android:layout_marginTop="60dp"
         android:background="@drawable/edibtn_login"
         android:backgroundTint="#43DED0"
-        android:text="Войти"
+        android:text="Зарегистрироваться"
+        android:onClick="onClickInLodin"
         android:theme="@style/property"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPassrepiat" />
@@ -129,8 +130,10 @@
         android:background="@drawable/editbtn_reg"
         android:theme="@style/property_black"
         app:backgroundTint="#A8A8A8"
-        android:text="Регистрация"
+        android:text="У меня уже есть аккаунт"
+        android:onClick="onClickInLodin"
         android:textColor="#43DED0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

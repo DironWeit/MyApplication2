@@ -47,6 +47,7 @@
         android:theme="@style/property"
         android:backgroundTint="#43DED0"
         android:text="Войти"
+        android:onClick="onClickInScrean"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword" />
 
@@ -60,6 +61,7 @@
         android:theme="@style/property_black"
         app:backgroundTint="#A8A8A8"
         android:text="Регистрация"
+        android:onClick="onClickInReg"
         android:textColor="#43DED0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button" />
