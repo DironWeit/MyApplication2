@@ -1,6 +1,8 @@
 package com.example.myapplication2;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -15,5 +17,10 @@ public class MainScreanActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_screan);
 
+    }
+
+    public void onCleackOpenDitails(View view) {
+        Intent intent = new Intent(MainScreanActivity.this, ScrollingActivity.class);
+        startActivity(intent);
     }
 }
